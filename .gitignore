@@ -3,7 +3,7 @@
 
 #Terraform internals
 .terraform*
-.tfstate
+*.tfstate
 
 #Default Mac files
 .DS_Store
