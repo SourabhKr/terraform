@@ -3,6 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "first_instance" {
-  ami = "ami-0fb653ca2d3203ac1"
+  ami = "ami-05ff5eaef6149df49"
   instance_type = "t2.micro"
+  tags = {
+    Name = "terraform-example"
+  }
 }
