@@ -134,6 +134,7 @@ resource "aws_launch_configuration" "example" {
                 echo "Hello, World" > index.html
                 nohop busybox httpd -f -p ${var.server_port} &
               EOF
+
   lifecycle {
     create_before_destroy = true
   }
