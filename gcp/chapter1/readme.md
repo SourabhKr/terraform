@@ -14,6 +14,7 @@ My Billing Account-> Billing -> Project to allow)
 Configuring local environment means letting the Terraform connect the GCP services. To do the same,
 we need to authenticate the API calls being made by the local terraform installation.    
 
-First install the gcloud CLI.
-Initialize the gcloud, using gcloud init
-Set the default access by using gcloud auth application-default
+* First install the gcloud CLI.
+* Initialize the gcloud, using gcloud init
+* Set the default access by using gcloud auth application-default
+
